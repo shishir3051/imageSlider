@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.slider-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    border-radius: 30px;
+}
